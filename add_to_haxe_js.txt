@@ -1,0 +1,3 @@
+Engine.IncludeModule("common-api"); 
+var $estr, js, $s, org, Main, $Main, BotAI, Std, IntIter, Reflect, $_, $e, $closure, document={}, window={}, onerror, Int, Dynamic, Float, Bool, Class, Enum, Void; 
+org = {zeroad:{common_api:{BaseAI:BaseAI,EntityCollection:EntityCollection,Entity:Entity,EntityTemplate:EntityTemplate}}};

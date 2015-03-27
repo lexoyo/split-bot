@@ -1,0 +1,8 @@
+-js bin/SplitBotTmp.js
+-cp src
+-main Main.hx
+-cmd ./post_build_script.sh
+--no-traces
+--dead-code-elimination
+--no-inline
+
