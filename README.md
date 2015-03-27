@@ -16,9 +16,36 @@ Each one has a goal which may be different or even contradictory, e.g. defend th
 
 * [Download and install 0ad](http://play0ad.com/)
 * [download Split Bot](https://github.com/lexoyo/split-bot)
-* unzip Split Bot folder and move the content of the `bin/` folder to `[0ad forlder]/AppData/Local/0 A.D. alpha/binaries/data/mods/public/simulation/ai/splitbot`
+* unzip Split Bot folder and move the content of the `bin/` folder to `~/Library/Application\ Support/0ad/mods/public/simulation/ai/splitbot/` (on MAC) - you may have to create the folders.
 
-Then start a game, and choose Split Bot as AI for an opponent.
+Then start a solo game, and choose Split Bot as AI for an opponent.
+
+![Choose split bot in the AI list](docs/0ad-choose-split-bot.png)
+
+## Hack in Split Bot
+
+```
+$ ln -s [absolute path to split-bot repo]/bin/ ~/Library/Application\ Support/0ad/mods/public/simulation/ai/splitbot
+$ sudo chmod 0777 start_game_for_test.sh
+```
+
+Start the game automatically on Mac
+
+```
+$ /Applications/0ad.app/Contents/MacOS/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:JuBot -autostart-players=2
+```
+
+Or on Linux
+
+```
+$ sudo /usr/games/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:qBot -autostart-players=2
+```
+
+Or even on windows
+
+```
+> "C:\Users\lexa\Documents\repositories\0ad\binaries\system\"pyrogenesis.exe -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:JuBot -autostart-players=2
+```
 
 ## Development status
 
