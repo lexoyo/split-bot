@@ -6,6 +6,6 @@ class UnitTests
         new UnitTestsPoint();
     }
         
-    public function new();
+    public function new(){};
        
 }

@@ -17,7 +17,6 @@
 	To read the license please visit http://www.gnu.org/copyleft/gpl.html
 */
 
-//package org.zeroad.splitbot;
 package ;
 import org.zeroad.common_api.BaseAI;
 import org.zeroad.common_api.Entity;

@@ -49,7 +49,7 @@ class BuilderAgent extends Agent
 	 * the templates which we build automatically by default
 	 * other templates may be added at runtime, in goodTemplateNames property
 	 */
-	public static inline var GOOD_TEMPLATE_NAMES : Array<String> = [];
+	public static var GOOD_TEMPLATE_NAMES : Array<String> = [];
 	/**
 	 * the templates which we build automatically
 	 */

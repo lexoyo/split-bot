@@ -49,7 +49,7 @@ class MachinaSexualAgent extends Agent
 	 * the templates which we are not allowed to build by default 
 	 * women or other templates may be added at runtime, in badTemplateNames property
 	 */
-	public static inline var BAD_TEMPLATE_NAMES : Array<String> = [EntityHelper.UNIT_CAVALRY_JAVELINIST, EntityHelper.UNIT_CAVALRY_SPEARMAN, EntityHelper.UNIT_CAVALRY_SWORDSMAN, EntityHelper.UNIT_CHAMPION_CAVALRY_BRIT, EntityHelper.UNIT_CHAMPION_CAVALRY_GAUL];
+	public static var BAD_TEMPLATE_NAMES : Array<String> = [EntityHelper.UNIT_CAVALRY_JAVELINIST, EntityHelper.UNIT_CAVALRY_SPEARMAN, EntityHelper.UNIT_CAVALRY_SWORDSMAN, EntityHelper.UNIT_CHAMPION_CAVALRY_BRIT, EntityHelper.UNIT_CHAMPION_CAVALRY_GAUL];
 	/**
 	 * the templates which we are not allowed to be build 
 	 */

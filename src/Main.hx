@@ -23,6 +23,7 @@ import js.Lib;
 import org.zeroad.common_api.BaseAI;
 import org.zeroad.common_api.Utils;
 
+
 /**
  * This class is unused, only for compilation
  * The game engine creates directly an instance of BotAI
