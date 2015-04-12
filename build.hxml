@@ -1,8 +1,18 @@
 -js bin/SplitBotTmp.js
 -cp src
 -main Main.hx
--cmd ./post_build_script.sh
+#-dce full
 --no-traces
---dead-code-elimination
 --no-inline
+-D js-classic
+-cmd ./post_build_script.sh
 
+# --next 
+# -js bin/UnitTests.js
+# -cp unit_tests
+# -cp src
+# -main UnitTests.hx
+# -lib utest
+# -dce full
+# --no-traces
+# --no-inline

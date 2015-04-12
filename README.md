@@ -16,7 +16,7 @@ Each one has a goal which may be different or even contradictory, e.g. defend th
 
 * [Download and install 0ad](http://play0ad.com/)
 * [download Split Bot](https://github.com/lexoyo/split-bot)
-* unzip Split Bot folder and move the content of the `bin/` folder to `~/Library/Application\ Support/0ad/mods/public/simulation/ai/splitbot/` (on MAC) - you may have to create the folders.
+* unzip Split Bot folder and move the content of the `bin/` folder to `~/Library/Application\ Support/0ad/mods/public/simulation/ai/splitbot/` (on MAC) or `~/.local/share/0ad/mods/public/simulation/ai/Splitbot` (on Ubuntu) - you may have to create the folders.
 
 Then start a solo game, and choose Split Bot as AI for an opponent.
 
@@ -38,7 +38,7 @@ $ /Applications/0ad.app/Contents/MacOS/pyrogenesis -nosound -quickstart -autosta
 Or on Linux
 
 ```
-$ sudo /usr/games/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:qBot -autostart-players=2
+$ /usr/games/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:Splitbot -autostart-ai=2:aegis -autostart-players=2
 ```
 
 Or even on windows
