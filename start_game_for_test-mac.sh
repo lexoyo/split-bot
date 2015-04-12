@@ -1,2 +1,2 @@
 # mac
-/Applications/0ad.app/Contents/MacOS/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:aegis -autostart-players=2
+/Applications/0ad.app/Contents/MacOS/pyrogenesis -nosound -autostart="random/deep_forest" -autostart-players=2 -autostart-size=256 -autostart-ai=1:splitbot -autostart-ai=2:petra
