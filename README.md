@@ -26,6 +26,7 @@ Then start a solo game, and choose Split Bot as AI for an opponent.
 
 ```
 $ ln -s [absolute path to split-bot repo]/bin/ ~/Library/Application\ Support/0ad/mods/public/simulation/ai/splitbot
+$ cp -r [absolute path to 0ad public folder]/simulation/ai/common-api ~/Library/Application\ Support/0ad/mods/public/simulation/ai/
 $ sudo chmod 0777 start_game_for_test.sh
 ```
 
