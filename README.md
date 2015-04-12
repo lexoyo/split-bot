@@ -32,19 +32,19 @@ $ sudo chmod 0777 start_game_for_test.sh
 Start the game automatically on Mac
 
 ```
-$ /Applications/0ad.app/Contents/MacOS/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:JuBot -autostart-players=2
+$ ./start_game_for_test-mac.sh
 ```
 
 Or on Linux
 
 ```
-$ /usr/games/pyrogenesis -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:Splitbot -autostart-ai=2:aegis -autostart-players=2
+$ ./start_game_for_test-linux.sh
 ```
 
 Or even on windows
 
 ```
-> "C:\Users\lexa\Documents\repositories\0ad\binaries\system\"pyrogenesis.exe -nosound -quickstart -autostart=cantabrian_highlands -autostart-random -mod "Cantabrian Highlands" -autostart-ai=1:SplitBot -autostart-ai=2:JuBot -autostart-players=2
+$ ./start_game_for_test.bat
 ```
 
 ## Development status
