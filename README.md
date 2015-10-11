@@ -1,3 +1,5 @@
+> This project is not maintained anymore
+
 ## Introduction
 
 [Wildfire Games](http://wildfiregames.com/), an international group of volunteer game developers, develops [0 A.D., a free, open-source game of ancient warfare](http://play0ad.com/).
